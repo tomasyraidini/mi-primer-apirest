@@ -1,0 +1,40 @@
+get http://localhost:3000/books HTTP/1.1
+###
+
+GET  HTTP/1.1 http://localhost:3000/books HTTP/1.1
+###
+POST http://localhost:3000/books HTTP/1.1
+
+
+Content-Type: application/json
+{
+    "name":"padre bueno",
+    "author":"tomass",
+    "año":20002
+
+}
+
+###
+POST http://localhost:3000/books HTTP/1.1
+Content-Type: application/json
+{
+    "name":"padre bueno",
+    "author":"tomass",
+    "año":20002
+}
+
+
+
+
+
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
